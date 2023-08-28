@@ -1,0 +1,217 @@
+//html code:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="background">
+            <h1>MANCHURU VIJAY</h1>
+            <img src="https://img.freepik.com/premium-vector/colorful-letter-vm-mv-logo-template_27671-121.jpg?w=740" class="image1 "></img>
+            </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1> Hi, This is VIJAY</h1>
+        <p> "I have a solid foundation in web development, with hands-on experience in HTML, CSS, and JavaScript. I've created "BASIC CALCULATOR" "LANDING PAGE" using HTML, CSS & JavaScript implementing modern design principles for a seamless user experience. My JavaScript skills include interactivity and dynamic content, such as form validation and DOM manipulation. I've also utilized libraries like jQuery to streamline development. My projects showcase my ability to create functional and attractive websites, with a focus on clean code and efficient problem-solving."</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>I seek challenging opportunities where I can fully use my skills for the success of my carieer and give my 200% effort to my work for the Organization.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h1>Landing Page </h1>
+           <p>My Portfolio</p>
+            <a href="project-demo.html">Basic Calculator</a>
+            <a href="project-repo.html">https://github.com/Manchuru-vijay/CODSOFT</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <button type="button" class="btn btn-dark button1">Contact Me</button>
+        <button type="button" class="btn btn-secondary button1">My Resume</button>
+        <form id="contact-form">
+
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Manchuru Vijay</p>
+    </footer>
+
+    <script data-two_delay_id="two_64e2204679aeb" data-two_delay_src="script.js"></script>
+</body>
+</html>
+
+//css code:
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    background-image: url("https://img.freepik.com/premium-photo/landscape-mountain-with-natural-breaking-ice-milky-way-frozen-water-lake-baikal-siberia-russia_29505-930.jpg?w=360");
+    width: 100vw;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.nav-links li {
+    margin-right: 20px;
+
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+    background-color: #F5F5DC;
+}
+
+#about {
+    padding: 50px;
+    text-align: center;
+    background-color: #C9C0BB;
+}
+
+#skills {
+    padding: 50px;
+    background-color: #98AFC7;
+    text-align: center;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#projects {
+    padding: 50px;
+    text-align: center;
+    background-color: #728FCE;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project a {
+    display: block;
+    margin-top: 10px;
+}
+
+#contact {
+    padding: 50px;
+    text-align: center;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-form label {
+    margin-bottom: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#contact-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.background {
+    height: 222PX;
+    WIDTH: 250px;
+    font-size: 20px;
+    font-family: "sans-serif";
+    color: #ff7373;
+}
+
+.image1 {
+    height: 95px;
+    width: 175px;
+}
+
+.button1 {
+    background-color: #7FFFD4;
+    color: black;
+    height: 5vh;
+    width: 35vw;
+}
